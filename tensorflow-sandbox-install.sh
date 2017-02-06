@@ -63,6 +63,7 @@ cd /tmp/tensorflow_pkg
 sudo LD_LIBRARY_PATH=$LD_LIBRARY_PATH /opt/rh/python27/root/usr/bin/pip2.7 -q install \
     --upgrade ./tensorflow-0.12.0-cp27-none-linux_x86_64.whl
 sudo LD_LIBRARY_PATH=$LD_LIBRARY_PATH /opt/rh/python27/root/usr/bin/pip2.7 -q install tflearn
+sudo LD_LIBRARY_PATH=$LD_LIBRARY_PATH /opt/rh/python27/root/usr/bin/pip2.7 -q install pandas
 EOF
 
 echo "Restarting MapR services..."
