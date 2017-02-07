@@ -39,7 +39,7 @@ Congratulations!  You should now have a fully functional TensorFlow setup runnin
 
 ### Running the Example:  Predicting Baggage Claim Status
 
-The Python code example takes a recently released dataset from the US Department of Homeland Security relating to baggage claims paid over the past 10-15 years.  A copy of the dataset is provided here, converted from XLS to CSV for easy handling.
+The Python code example takes a recently released dataset from the US Department of Homeland Security relating to baggage claims paid over the past 10-15 years.  A copy of the dataset is provided in this repo, converted from XLS to CSV for easy handling.
 
 Follow these steps to run the example:
 
