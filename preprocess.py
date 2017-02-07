@@ -5,9 +5,9 @@ import datetime as dt
 import numpy as np
 import re
 
-INPUTFILE = "/mapr/demo.mapr.com/user/mapr/claims_2002_2006.csv"
-OUT_TRAIN = "/mapr/demo.mapr.com/user/mapr/claims_train.csv"
-OUT_TEST = "/mapr/demo.mapr.com/user/mapr/claims_test.csv"
+INPUTFILE = "/mapr/demo.mapr.com/cd/claims_2002_2006.csv"
+OUT_TRAIN = "/mapr/demo.mapr.com/cd/claims_train.csv"
+OUT_TEST = "/mapr/demo.mapr.com/cd/claims_test.csv"
 SPLIT = 0.8
 
 INPUTCOLS = ['Date Received', 'Airport Code', 'Airport Name', \
