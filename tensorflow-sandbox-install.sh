@@ -69,6 +69,10 @@ EOF
 echo "Restarting MapR services..."
 sudo service mapr-warden start
 
+# move the build files so we can checkout mapr-demos/tensorflow
+cd /home/mapr
+mv tensorflow tensorflow-build
+
 echo "*** COMPLETED -- you now have a working TensorFlow environment ***"
 echo "*** to use it, type 'scl enable python27 bash' ***"
 echo ""
