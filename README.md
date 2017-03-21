@@ -24,7 +24,7 @@ After logging out, log in again as the user ```mapr``` with password ```mapr```.
 Download the Tensorflow-on-MapR installation script.
 
 ```
-  wget https://git.io/vD8g5
+  wget https://git.io/vD8g5 -O tensorflow-sandbox-install.sh
 ```
 
 You should now have a file called ```tensorflow-sandbox-install.sh``` in the current directory.  Run the script as follows.  
